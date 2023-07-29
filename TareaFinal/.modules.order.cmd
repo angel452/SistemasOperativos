@@ -1,0 +1,1 @@
+cmd_/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/TareaFinal/modules.order := {   echo /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/TareaFinal/DEVucsp.ko; :; } > /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/TareaFinal/modules.order

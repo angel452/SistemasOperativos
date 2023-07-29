@@ -1,0 +1,17 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{while}\PYG{+w}{ }\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{lock}\PYG{p}{()}
+\PYG{+w}{    }\PYG{c+c1}{// \PYGZhy{}\PYGZhy{}\PYGZgt{} Leemos Shared Memory}
+\PYG{+w}{    }\PYG{n}{s}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{shm}\PYG{p}{;}\PYG{+w}{ }\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{shm2}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{s}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}1\PYGZsq{}}\PYG{p}{)\PYGZob{}}\PYG{+w}{ }
+\PYG{+w}{        }\PYG{k}{if}\PYG{p}{(}\PYG{o}{*}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{==}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}*\PYGZsq{}}\PYG{p}{)\PYGZob{}}\PYG{+w}{ }\PYG{n}{reed\PYGZus{}Kernel}\PYG{p}{()}\PYG{+w}{ }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{        }\PYG{o}{*}\PYG{n}{s2}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}*\PYGZsq{}}\PYG{p}{;}\PYG{+w}{ }\PYG{o}{*}\PYG{n}{s}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{l+s+sc}{\PYGZsq{}2\PYGZsq{}}\PYG{p}{;}\PYG{+w}{ }
+
+\PYG{+w}{        }\PYG{n}{writte}\PYG{p}{();}
+\PYG{+w}{        }\PYG{n}{unlock}\PYG{p}{();}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{k}{else}\PYG{p}{\PYGZob{}}\PYG{+w}{ }\PYG{n}{unlock}\PYG{p}{();\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{Verbatim}
