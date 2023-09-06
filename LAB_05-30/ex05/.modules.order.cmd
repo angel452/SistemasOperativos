@@ -1,1 +1,0 @@
-cmd_/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/modules.order := {   echo /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/hello-5.ko; :; } > /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/modules.order

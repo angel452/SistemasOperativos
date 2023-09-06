@@ -1,1 +1,0 @@
-cmd_/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_06-17/ex01/DEVucsp.mod := printf '%s\n'   DEVucsp.o | awk '!x[$$0]++ { print("/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_06-17/ex01/"$$0) }' > /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_06-17/ex01/DEVucsp.mod

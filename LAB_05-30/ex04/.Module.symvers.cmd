@@ -1,1 +1,0 @@
-cmd_/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex04/Module.symvers :=  sed 's/ko$$/o/'  /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex04/modules.order | scripts/mod/modpost -m     -o /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex04/Module.symvers -e -i Module.symvers -T - 

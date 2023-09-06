@@ -1,1 +1,0 @@
-cmd_/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/hello-5.mod := printf '%s\n'   hello-5.o | awk '!x[$$0]++ { print("/home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/"$$0) }' > /home/angel/Documentos/UCSP/Semestre_Nivelacion/SistemasOperativos/LAB_05-30/ex05/hello-5.mod
